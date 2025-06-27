@@ -1,0 +1,12 @@
+npm init - inicia um projeto
+npm install <nome_do_projeto> ou npm i <nome_do_projeto> instala um pacote
+estes comandos podem conter flags
+npm i <nome_do_projeto> flags 
+
+flag são instruções de configuração
+--save - salva o pacote para rodar em tempo de execução
+--save-dev ou -D instala o pacote apenas no ambiente de desenvolvimento
+
+npm install ou npm i - verifica e instala todas as dependências listadas no package.json
+
+//npm i prompt-sync
