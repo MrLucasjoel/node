@@ -10,3 +10,24 @@ flag são instruções de configuração
 npm install ou npm i - verifica e instala todas as dependências listadas no package.json
 
 //npm i prompt-sync
+
+instalação global - uso sempre que um pacote precisa ficar disponível em qualque projeto
+
+npm i -g <nome_do_pacote>
+
+configurar typescript -
+npx tsc --init - cria um arquivo de configuração chamado tsconfig.json
+
+arquitetura sugerida de pasta
+
+projeto
+/src
+    /index.ts
+/dist
+    /index.js
+/packege.json
+/tsconfig.json
+
+
+
+"ts-node src/tipos.ts --watch"
